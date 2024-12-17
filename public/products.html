@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="form_container">
+                <h3>Registrar</h3>
+                <form id="form" class="form">
+                    <input type="text" id="name" placeholder="Nombre" required>
+                    <input type="text" id="description" placeholder="Descripción" required>
+                    <input type="number" id="quantity" placeholder="Cantidad" required>
+                    <input type="number" id="price" placeholder="Precio" required>
+                    <button type="submit" id="saveData">Guardar</button>
+                </form>
+            </div>
+            <div class="prouctos_list" id="pList">
+                <div>
+                    <ul class="heeader">
+                        <li><h3>Id</h3></li>
+                        <li><h3>Nombre</h3></li>
+                        <li><h3>Descripción</h3></li>
+                        <li><h3>Cantidad</h3></li>
+                        <li><h3>Precio</h3></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div id="dataList">
+                </div>
+            </div>
+        </div>
+        <script src="./pouchdb.js"></script>
+    </body>
+</html>

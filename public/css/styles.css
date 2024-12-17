@@ -41,14 +41,3 @@ li {
     height: 40px;
     display: flex;
 }
-
-.form_container {
-    margin: 10px auto;
-    .form {
-        display: flex;
-        flex-direction: column;
-        input {
-            margin: 10px 0 10px 0;
-        }
-    }
-}
